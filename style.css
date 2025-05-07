@@ -12,6 +12,9 @@ h1, nav {
     display: flex;
     align-items: center;
     height: 38px;
+}
+
+h1, nav, .Banner {
     margin: 0 6%;
 }
 
@@ -41,4 +44,8 @@ nav a {
 
 nav a:hover {
     color: #000000;
+}
+
+.Banner img {
+    width: 100%;
 }
