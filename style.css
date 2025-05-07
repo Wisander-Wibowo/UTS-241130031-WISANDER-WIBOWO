@@ -14,7 +14,7 @@ h1, nav {
     height: 38px;
 }
 
-h1, nav, .Banner {
+h1, nav, .Banner, main section {
     margin: 0 6%;
 }
 
@@ -48,4 +48,20 @@ nav a:hover {
 
 .Banner img {
     width: 100%;
+}
+
+main section {
+    border: 1px solid #008000;
+}
+
+main section h2 {
+    border-bottom: 1px solid #008000;
+}
+
+main section img {
+    width: 150px;
+}
+
+main section img:hover {
+    width: 160px;
 }
