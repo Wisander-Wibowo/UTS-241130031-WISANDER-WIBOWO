@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #edfaee;
+}
+
+h1, nav {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    margin: 0 6%;
+}
+
+h1 {
+    height: 45px;
+    color: #008000;
+    font-size: 25px;
+}
+
+hr {
+    border-color: #edfaee;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #808080;
+}
+
+nav a:hover {
+    color: #000000;
+}
